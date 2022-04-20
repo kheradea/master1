@@ -18,6 +18,7 @@ public class Base {
 	driver=new ChromeDriver(options);
 	driver.get("https://kite.zerodha.com/");
 	lp=new LogInPage(driver);
+	
 	}
 
 }
