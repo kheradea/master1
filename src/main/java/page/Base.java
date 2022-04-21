@@ -7,8 +7,8 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Base {
-	static WebDriver driver;
-	static LogInPage lp;
+	public static WebDriver driver;
+	public static LogInPage lp;
 	public static void LaunchURL()
 	{
 	WebDriverManager.chromedriver().setup();

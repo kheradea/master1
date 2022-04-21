@@ -5,7 +5,7 @@ import org.testng.Assert;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-
+import page.Base;
 public class LogInStep extends Base {
 	@Given("User is on Home Page")
 	public void user_is_on_home_page() {
